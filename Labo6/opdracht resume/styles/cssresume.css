@@ -4,7 +4,10 @@ body {
     margin: 0;
     padding: 0;
 }
-
+a {
+    color: #EF233C;
+    text-decoration: none;
+}
 /*Header & Footer*/
 header {
     background-color: #2B2D42;
@@ -27,10 +30,13 @@ header p {
     font-size: 0.70em;
 }
 
-a {
-    color: #EF233C;
-    text-decoration: none;
+footer {
+    background-color: #2B2D42;
+    color: #8D99AE;
+    padding: 30px;
+    margin-top: 10px;
 }
+
 h1,h2 {
     font-weight: normal;
 }
@@ -44,12 +50,4 @@ h1 {
 .education {
     background-color: #8D99AE;
     padding: 30px;
-}
-
-/* Stijlen voor de footer */
-footer {
-    background-color: #2B2D42;
-    color: #8D99AE;
-    padding: 30px;
-    margin-top: 10px;
 }
