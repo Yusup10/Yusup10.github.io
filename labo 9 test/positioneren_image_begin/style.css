@@ -1,0 +1,32 @@
+/* Algemene styling voor de pagina */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.25em; /* Lettergrootte van 1.25em */
+    margin: 10px; /* Marge rondom de hele pagina */
+    line-height: 1.6; /* Goede leesbaarheid */
+}
+
+main {
+    margin: 10px; /* Ruimte rond de hoofdinhoud */
+}
+
+article {
+    border: 1px solid black; /* Zwarte rand rond elk artikel */
+    padding: 10px; /* Binnenruimte in het artikel */
+    margin: 10px 0; /* Marge tussen de artikels */
+    min-height: 300px; /*Zorgt ervoor dat de inhoud netjes binnenblijft */
+ border
+    padding: 10px; /*zwarte 
+}
+
+article img {
+    width: 200px; /* Breedte van de afbeelding */
+    height: auto; /* Houd de verhoudingen correct */
+    margin: 0 10px 10px 0; /* Ruimte tussen afbeelding en tekst */
+    float: right; /* Standaardafbeelding naar rechts (voor even artikels) */
+}
+
+article:nth-of-type(odd) img {
+    float: left; /* Afbeelding naar links voor oneven artikels */
+    margin: 0 0 10px 10px; /* Ruimte aan de andere kant */
+}
